@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: 'stylish'; /*a name to be used later*/
+    src: url('http://www.dafont.com/james-fajardo.ttf'); /*URL to font*/
+}
+
+
+
+.header h1{
+	font-size: 33px;
+	text-align: center;
+	font-family: "stylish";
+}
+span.large{
+	font-size: 43px;
+}
+.header{
+	width: 54em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo{
+	font-family: 'stylish';
+	font-size: 115px;
+	text-align: center;
+}
+.nav ul li{
+	display:inline;
+	margin-left:4em;	
+}
+.nav{
+	position: relative;
+	left:9em
+}
+.nav a{
+	text-decoration:none;
+	color: black;
+}
+
+.content{
+	font-size:1.25em;
+	margin-top: 8em;	
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    }
+.center-align{
+	text-align:center;
+}
+.bold{
+text-decoration: bold;
+}
+.logo::after{
+	content: " ";
+	clear:both;
+	width:10em;
+	margin-left:auto;
+	height:2xp;
+	border-top: 3px solid black ;
+
+}
+.top-margin{
+	margin-top:4em;
+}
+
+.single-column, .triple-column, double-column {
+	clear:none;
+	float:left;
+	margin:10px;
+	z-index:1;
+}
+.single-column{
+	width:14em;
+	background-color:blue;
+}
+.triple-column{
+	width: 42em;	
+}
