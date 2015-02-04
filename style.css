@@ -36,10 +36,14 @@ span.large{
 	text-decoration:none;
 	color: black;
 }
+.clear{
+	display: inline-block;
+	clear:both;
+}
 
 .content{
 	font-size:1.25em;
-	margin-top: 8em;	
+	margin-top: 1em;	
     display:-webkit-box;
     -webkit-box-pack:center;
     -webkit-box-align:center;
@@ -47,23 +51,25 @@ span.large{
 .center-align{
 	text-align:center;
 }
+
 .bold{
 text-decoration: bold;
 }
+
 .logo::after{
 	content: " ";
 	clear:both;
 	width:10em;
 	margin-left:auto;
-	height:2xp;
+	height:2px;
 	border-top: 3px solid black ;
 
 }
 .top-margin{
-	margin-top:4em;
+	margin-top:3em;
 }
 
-.single-column, .triple-column, double-column {
+.single-column, .triple-column, .double-column {
 	clear:none;
 	float:left;
 	margin:10px;
@@ -76,3 +82,49 @@ text-decoration: bold;
 .triple-column{
 	width: 42em;	
 }
+.double-column{
+	width:28em;
+}
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+.item-wrapper{
+	display: inline-block;
+	position: relative;
+	border:2px solid #ddd;
+	clear:none;
+	width:12em;
+	height: 17em;
+	margin:5px;
+}
+.image-container{
+	width:12em;
+	height:12em;
+	border-bottom:2px solid #ddd;
+}
+
+.image-container img{
+	max-width: 12em;
+	max-height: 12em;
+	margin-left: auto;
+	margin-right: auto;
+}
+.description p{
+	margin: 0px;
+	padding: 0px;
+	margin-left: 1em; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
