@@ -93,7 +93,6 @@ span.large {
 
 .single-column {
   width: 14em;
-  background-color: blue;
 }
 
 .triple-column {
@@ -113,6 +112,7 @@ span.large {
   display: inline-block;
   position: relative;
   border: 2px solid #ddd;
+  float:left;
   clear: none;
   width: 15em;
   height: 20em;
@@ -135,7 +135,7 @@ span.large {
   padding: 2.5%;
 }
 
-.image-container img {
+img {
   max-width: 95%;
   max-height: 95%;
   margin-left: auto;
