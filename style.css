@@ -57,6 +57,7 @@ span.large {
   font-size: 1.25em;
   margin-top: 1em;
   text-align: center;
+  overflow: auto;
   -webkit-box-pack: center;
   -webkit-box-align: center;
 }
@@ -118,7 +119,12 @@ span.large {
   margin-top: 3.5em;
   margin-left: 3.5em;
 }
-
+.float{
+	float:left;
+}
+.align-left{
+	text-align: left;
+}
 .image-container {
   width: 15em;
   height: 15em;
@@ -141,8 +147,19 @@ span.large {
   padding: 0px;
   margin-left: 1em;
 }
+.separate{
+	width: 12em;
+	border-top: 1px solid black;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+}
 
 .gallery-wrapper {
   padding-left: 5em;
   padding-right: 5em;
+}
+.offset{
+	margin-left: 7em;
 }
