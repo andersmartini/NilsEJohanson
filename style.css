@@ -1,138 +1,142 @@
-
 @font-face {
-    font-family: 'stylish'; /*a name to be used later*/
-    src: url('http://www.dafont.com/james-fajardo.ttf'); /*URL to font*/
+  font-family: 'stylish';
+  /*a name to be used later*/
+  src: url('http://www.dafont.com/james-fajardo.ttf');
+  /*URL to font*/
 }
 
-
-
-.header h1{
-	font-size: 33px;
-	text-align: center;
-	font-family: "stylish";
-}
-span.large{
-	font-size: 43px;
-}
-.header{
-	width: 54em;
-	margin-left: auto;
-	margin-right: auto;
-}
-.logo{
-	font-family: 'stylish';
-	font-size: 115px;
-	text-align: center;
-}
-.nav ul li{
-	display:inline;
-	margin-left:4em;	
-}
-.nav{
-	position: relative;
-	left:9em
-}
-.nav a{
-	text-decoration:none;
-	color: black;
-}
-.clear{
-	display: inline-block;
-	clear:both;
+.header h1 {
+  font-size: 33px;
+  text-align: center;
+  font-family: "stylish";
 }
 
-.content{
-	font-size:1.25em;
-	margin-top: 1em;	
-    display:-webkit-box;
-    -webkit-box-pack:center;
-    -webkit-box-align:center;
-    }
-.center-align{
-	text-align:center;
+span.large {
+  font-size: 43px;
 }
 
-.bold{
-text-decoration: bold;
+.header {
+  width: 54em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.logo::after{
-	content: " ";
-	clear:both;
-	width:10em;
-	margin-left:auto;
-	height:2px;
-	border-top: 3px solid black ;
-
-}
-.top-margin{
-	margin-top:3em;
+.logo {
+  font-family: 'stylish';
+  font-size: 115px;
+  text-align: center;
 }
 
-.single-column, .triple-column, .double-column {
-	clear:none;
-	float:left;
-	margin:10px;
-	z-index:1;
-}
-.single-column{
-	width:14em;
-	background-color:blue;
-}
-.triple-column{
-	width: 42em;	
-}
-.double-column{
-	width:28em;
-}
-.centered{
-	margin-left: auto;
-	margin-right: auto;
-}
-.item-wrapper{
-	display: inline-block;
-	position: relative;
-	border:2px solid #ddd;
-	clear:none;
-	width:15em;
-	height: 20em;
-	margin-top: 3.5em;
-	margin-left: 3.5em;
-}
-.image-container{
-	width:15em;
-	height:15em;
-	border-bottom:2px solid #ddd;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 2.5%
+.nav ul li {
+  display: inline;
+  margin-left: 4em;
 }
 
-.image-container img{
-	max-width: 95%;
-	max-height: 95%;
-	margin-left: auto;
-	margin-right: auto;
-}
-.description p{
-	margin: 0px;
-	padding: 0px;
-	margin-left: 1em; 
+.nav {
+  position: relative;
+  left: 9em;
 }
 
-.gallery-wrapper{
-	padding-left: 5em;
-	padding-right: 5em;
+.nav a {
+  text-decoration: none;
+  color: black;
 }
 
+.clear {
+  display: inline-block;
+  clear: both;
+}
 
+.content {
+  font-size: 1.25em;
+  margin-top: 1em;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
 
+.center-align {
+  text-align: center;
+}
 
+.bold {
+  text-decoration: bold;
+}
 
+.logo::after {
+  content: " ";
+  clear: both;
+  width: 10em;
+  margin-left: auto;
+  height: 2px;
+  border-top: 3px solid black;
+}
 
+.top-margin {
+  margin-top: 3em;
+}
 
+.single-column,
+.triple-column,
+.double-column {
+  clear: none;
+  float: left;
+  margin: 10px;
+  z-index: 1;
+}
 
+.single-column {
+  width: 14em;
+  background-color: blue;
+}
 
+.triple-column {
+  width: 42em;
+}
 
+.double-column {
+  width: 28em;
+}
 
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item-wrapper {
+  display: inline-block;
+  position: relative;
+  border: 2px solid #ddd;
+  clear: none;
+  width: 15em;
+  height: 20em;
+  margin-top: 3.5em;
+  margin-left: 3.5em;
+}
+
+.image-container {
+  width: 15em;
+  height: 15em;
+  border-bottom: 2px solid #ddd;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  padding: 2.5%;
+}
+
+.image-container img {
+  max-width: 95%;
+  max-height: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description p {
+  margin: 0px;
+  padding: 0px;
+  margin-left: 1em;
+}
+
+.gallery-wrapper {
+  padding-left: 5em;
+  padding-right: 5em;
+}
