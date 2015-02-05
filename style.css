@@ -104,7 +104,7 @@ text-decoration: bold;
 	height:15em;
 	border-bottom:2px solid #ddd;
     text-align: center;
-    vertical-align: center;
+    vertical-align: middle;
     display: table-cell;
     padding: 2.5%
 }
