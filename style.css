@@ -146,6 +146,7 @@ span.large {
   margin: 0px;
   padding: 0px;
   margin-left: 1em;
+  text-align: left;
 }
 .separate{
 	width: 12em;
