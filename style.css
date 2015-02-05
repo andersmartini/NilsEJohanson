@@ -9,6 +9,7 @@
   font-size: 33px;
   text-align: center;
   font-family: "stylish";
+  margin-bottom: 5px;
 }
 
 span.large {
@@ -22,9 +23,14 @@ span.large {
 }
 
 .logo {
-  font-family: 'stylish';
-  font-size: 115px;
-  text-align: center;
+  width: 35em;
+  height: 5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo img {
+  max-width: 100%;
 }
 
 .nav ul li {
@@ -50,6 +56,7 @@ span.large {
 .content {
   font-size: 1.25em;
   margin-top: 1em;
+  text-align: center;
   -webkit-box-pack: center;
   -webkit-box-align: center;
 }
@@ -79,7 +86,6 @@ span.large {
 .triple-column,
 .double-column {
   clear: none;
-  float: left;
   margin: 10px;
   z-index: 1;
 }
