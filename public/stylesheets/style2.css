@@ -89,8 +89,11 @@ span.large {
 }
 
 @media handheld only{
+	.item-wrapper{
+		min-height:400px;
+	}
 	.image-wrapper{
-		height:200px;
+		height: 75%
 	}
 	.img-tall{
 		width: 100%;
