@@ -84,4 +84,14 @@ span.large {
 	margin: 20px auto ;
 	clear:both;
 }
+.gallery-wrapper{
+	margin: 0 auto;
+}
+
+@media handheld only{
+	.image-wrapper{
+		height:200px;
+	}
+}
+
 
