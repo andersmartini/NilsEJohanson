@@ -92,6 +92,9 @@ span.large {
 	.image-wrapper{
 		height:200px;
 	}
+	.img-tall{
+		width: 100%;
+	}
 }
 
 
